@@ -9,3 +9,5 @@ Burde kunne hacke den på plass igjen. Mangler .gitignore, men ok.
 
 Flyttet også over /public/ med diverse bildefiler, og html fil,
 men slettet robots etc.
+
+Flyttet også et repo til MiddleMac via Airdrop.
