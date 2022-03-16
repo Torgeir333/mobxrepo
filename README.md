@@ -4,6 +4,9 @@
 
 Endringslogg:
 
+16.03.22: npm start virket nå, men krasjet pga. webvitalis skit lagt inn i index.js. Fjernet og lagret og 
+app kjører nå lokalt på localhost:3000 
+
 16.03.22: /node_modules/ er nå på plass i repo, er i .gitignore ok, men er 240 MB, 
 så mye større enn de 6 MB jeg hadde på den egne appen (så det er mange sub-dependencies antagelig).
 
