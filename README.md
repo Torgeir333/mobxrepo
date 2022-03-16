@@ -4,6 +4,10 @@
 
 Endringslogg:
 
+16.03.22: /node_modules/ er nå på plass i repo, er i .gitignore ok, men er 240 MB, 
+så mye større enn de 6 MB jeg hadde på den egne appen (så det er mange sub-dependencies antagelig).
+
+
 16.03.22 Fjernet fluff fra package.json før jeg kjørte npm start (virket ikke), så npm install
 som nok vil ta tid.
 
