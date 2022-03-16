@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Ny versjon 01.03.22: nå med roterende trippelsvusj.
+          Ny 16.03.22 MiddleMac: nå med roterende trippelsvusj.
         </p>
         <a
           className="App-link"
