@@ -4,6 +4,9 @@
 
 Endringslogg:
 
+16.03.22 Fjernet fluff fra package.json før jeg kjørte npm start (virket ikke), så npm install
+som nok vil ta tid.
+
 16.03.22 Kjørte > git pull  ---> fikk ikke tilgang: "git@github.com: Permission denied (publickey)."
 Så jeg gikk til .ssh og kjørte ssh-add -l etc. Med id_ed25519_MiddleMac lagt til så fungerte git pull
 --> dette betyr at det ikke er automatisk tilgang til GitHub fra MiddleMac OK
