@@ -4,6 +4,8 @@
 
 Endringslogg:
 
+16.03.22: rydder i kommentarer, i test grein, og så kjører merge til main etc. Denne appen skulle nå være noenlunde klar for public. Hmm... vi får se.
+
 16.03.22: npm start virket nå, men krasjet pga. webvitalis skit lagt inn i index.js. Fjernet og lagret og 
 app kjører nå lokalt på localhost:3000 
 
