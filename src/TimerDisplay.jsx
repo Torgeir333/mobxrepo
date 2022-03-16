@@ -92,6 +92,6 @@ const TimerDisplay = () => {
           <br></br>
         </div>
     );
-  }
+}
 
-  export default TimerDisplay;
+export default TimerDisplay;
