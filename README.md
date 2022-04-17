@@ -4,7 +4,7 @@
 
 Endringslogg:
 
-17.04.22: rydder i repo da jeg likevel er innom. Fikk ikke pushet til repo før jeg hadde lagt til id_ed25519_MiddleMac. OK, fungerer nå.
+17.04.22: rydder i repo da jeg likevel er innom. Fikk ikke pushet til repo før jeg hadde lagt til id_ed25519_MiddleMac. OK, fungerer nå. Fikk også kjørt opp med > npm run start 
 
 16.03.22: rydder i kommentarer, i test grein, og så kjører merge til main etc. Denne appen skulle nå være noenlunde klar for public. Hmm... vi får se.
 
