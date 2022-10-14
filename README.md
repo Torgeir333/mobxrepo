@@ -8,7 +8,7 @@ Endringslogg:
 ikke kjørt > npm install pga. mobx-react ikke tålte siste versjon av mobx. Erstattet mobx-react observer med ditto mobx-react-lite,
 og ting kjører med > npm run start. Kaller også opp Chrome automatisk.
 
-16.03.22: rydder i kommentarer, i test grein, og så kjører merge til main etc. Denne appen skulle nå være noenlunde klar for public. Hmm... vi får se.
+16.03.22: rydder i kommentarer, i test grein, og så kjører merge til main etc. Demonstrerer nå MobX state i TimerDisplay komponent.
 
 16.03.22 Har lagt til ssh key etc.
 
