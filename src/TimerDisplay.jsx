@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { makeAutoObservable } from 'mobx';
-import { observer } from 'mobx-react';
+import { observer } from 'mobx-react-lite';
 
 // Denne komponenten er satt opp med MobX state
 // fra https://mobx.js.org/README.html

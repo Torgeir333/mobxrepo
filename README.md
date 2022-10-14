@@ -1,38 +1,18 @@
 # mobxrepo
 
-
+Brukte npx create app, for å legge til en MobX komponent TimerDisplay.jsx.
+Ikke helt vellykket. Burde bygget fra scratch. Men kjører nå.
 
 Endringslogg:
-
-17.04.22: rydder i repo da jeg likevel er innom. Fikk ikke pushet til repo før jeg hadde lagt til id_ed25519_MiddleMac. OK, fungerer nå. Fikk også kjørt opp med > npm run start 
+14.10.22: Dratt ned repo til TbMac og her fungerer ingenting. Fikk
+ikke kjørt > npm install pga. mobx-react ikke tålte siste versjon av mobx. Erstattet mobx-react observer med ditto mobx-react-lite,
+og ting kjører med > npm run start. Kaller også opp Chrome automatisk.
 
 16.03.22: rydder i kommentarer, i test grein, og så kjører merge til main etc. Denne appen skulle nå være noenlunde klar for public. Hmm... vi får se.
 
-16.03.22: npm start virket nå, men krasjet pga. webvitalis skit lagt inn i index.js. Fjernet og lagret og 
-app kjører nå lokalt på localhost:3000 
-
-16.03.22: /node_modules/ er nå på plass i repo, er i .gitignore ok, men er 240 MB, 
-så mye større enn de 6 MB jeg hadde på den egne appen (så det er mange sub-dependencies antagelig).
-
-
-16.03.22 Fjernet fluff fra package.json før jeg kjørte npm start (virket ikke), så npm install
-som nok vil ta tid.
-
-16.03.22 Kjørte > git pull  ---> fikk ikke tilgang: "git@github.com: Permission denied (publickey)."
-Så jeg gikk til .ssh og kjørte ssh-add -l etc. Med id_ed25519_MiddleMac lagt til så fungerte git pull
---> dette betyr at det ikke er automatisk tilgang til GitHub fra MiddleMac OK
+16.03.22 Har lagt til ssh key etc.
 
 15.03.22 OK har klonet ned til MiddleMac. Laget .gitignore og lastet den filen opp.
 
 15.03.22 Flyttet også et repo til MiddleMac via Airdrop (for sjekk)
 
-15.03.22 Bruker GUI for å flytte filer til GitHub
-
-Prøvde bruke automatiske kommandoer, men endte som rent npx create-app repo...
-Satte det til mobxrepoFailed. Prøver igjen grafisk.
-
-OK, fjernet vitalis-overvåkning, og fjernet /TodoList/ under /src/
-Burde kunne hacke den på plass igjen. Mangler .gitignore, men ok.
-
-Flyttet også over /public/ med diverse bildefiler, og html fil,
-men slettet robots etc.
